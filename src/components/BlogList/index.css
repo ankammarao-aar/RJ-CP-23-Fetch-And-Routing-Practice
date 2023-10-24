@@ -1,0 +1,15 @@
+.blog-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+@media screen and (max-width: 576px) {
+  .blog-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+  }
+}
